@@ -1,0 +1,17 @@
+
+.item
+{
+    margin: 0 auto;
+    background-color: brown;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    /* transform: rotate(90deg); */
+    /* transform: rotateX(90deg); */
+    /* transform: skew(45deg); */
+    /* transform: scaleX(45deg); */
+    transform: scale(30%,45%);
+
+    transition: 4s;
+  
+}

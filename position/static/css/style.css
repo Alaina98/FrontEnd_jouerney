@@ -1,0 +1,45 @@
+body{
+    height: 500vh;
+    z-index: -1;
+}
+.parent
+{
+    height: 100vh;
+    background-color: antiquewhite;
+    position: relative;
+}
+.child
+{
+    height: 50vh;
+    width: 30vw;
+    position: absolute;
+    border: 2px solid black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.one
+{
+    width: 100%;
+    height: 10vh;
+    position: sticky;
+    top: 0;
+    background-color: brown;
+    z-index: -100;
+
+}
+.two
+{
+    height: 10vh;
+    width: 5vw;
+    display: block;
+    text-align: center;
+    font-weight: bolder;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: cadetblue;
+    color: black;
+    
+
+}
