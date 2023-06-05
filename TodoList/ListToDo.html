@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homePage</title>
+    <link rel="stylesheet" type="text/css" href="./static/css/style.css">
+    <div class="topnav">
+       
+        <a href="ListToDo.html">List To do </a>
+        <a href="Pomodoro.html">Pomodoro Technique </a>
+        <a href="HowToStudy.html">How To study</a>
+        <a href="index.html">Home</a>
+        <img class="split"src="./static/images/1.jpg" style="width: 1-0px;height:100px;">
+        <p class="describe">Coding Website</p>
+            
+            
+      </div>
+</head>
+<body>
+  <!-- <label style="text-align: center;">Date:</label>
+  <input type="date" style="height: 20px; width: 200px;float: right;">
+  <label style="text-align: right;">Finish Date:</label>
+  <input type="date" style="height: 20px; width: 200px;float: right; "> -->
+  <div id="myDIV" class="header">
+    <h2>My To Do List</h2>
+    <input type="text" id="myInput" placeholder="Enter your work..">
+    <span onclick="newElement()" class="addBtn">Add</span>
+  </div>
+  
+
+  <ul id="myUL">
+    <li>C# Assingment 
+      <button class="close-button" aria-label="Close alert" type="button" data-close style="float: right;">
+      <span aria-hidden="true">&times;</span>
+      </button>
+    </li>
+    <li class="checked">Calc()
+      <button class="close-button" aria-label="Close alert" type="button" data-close style="float: right;">
+      <span aria-hidden="true">&times;</span>
+      </button>
+    </li>
+    <li>Linkedin Post
+      <button class="close-button" aria-label="Close alert" type="button" data-close style="float: right;">
+      <span aria-hidden="true">&times;</span>
+      </button>
+    </li>
+    <li>Leet Code 3
+      <button class="close-button" aria-label="Close alert" type="button" data-close style="float: right;">
+      <span aria-hidden="true">&times;</span>
+      </button>
+    </li>
+    <li>Css+Html design to do 
+      <button class="close-button" aria-label="Close alert" type="button" data-close style="float: right;">
+      <span aria-hidden="true">&times;</span>
+      </button></li>
+    
+   
+    
+  </ul>
+   <script>
+    // Create a "close" button and append it to each list item
+// var myNodelist = document.getElementsByTagName("LI");
+// var i;
+// for (i = 0; i < myNodelist.length; i++) {
+//   var span = document.createElement("SPAN");
+//   var txt = document.createTextNode("\u00D7");
+//   span.className = "close";
+//   span.appendChild(txt);
+//   myNodelist[i].appendChild(span);
+// }
+   </script>
+</body>
+</html>
